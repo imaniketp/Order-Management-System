@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrderMangement</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-sm box">
+      <h2>AP's PizZza</h2>
+    </div>
+
+    <div class="input-group mb-3 order-search">
+      <input type="text" id="order-id-input" class="form-control order-id-input" placeholder="Enter Order Number"
+        aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-outline-danger" type="button" id="button-addon2" onclick="executeOrder()">Execute</button>
+    </div>
+
+
+
+    <div class="order-status-wrapper">
+
+      <h3 class="main-title" id="order-id-display"></h3>
+        <button type="button" class="btn btn-light btn-lg order-status-block" id="order-placed-light">Order
+          Placed</button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Chef received the order and started
+          preparing</button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Pizza Sauce added</button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">First layer of cheeze added </button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Toppings added </button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Second layer of cheeze added</button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Pizza baked! </button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Oregano added and packed </button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">Package received at counter</button>
+        <button type="button" class="btn btn-light btn-lg order-status-block">The order is ready and handed over to
+          the Zomato delivery guy!</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

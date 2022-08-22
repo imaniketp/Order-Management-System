@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: url("https://images.hdqwalls.com/download/pizza-baked-chesse-spicy-7t-1600x900.jpg");
+	background-size: 100%;
+}
+
+.container{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h2{
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff, 
+                 0 0 20px #00b3ff,
+                 0 0 40px #00b3ff,
+                 0 0 80px #00b3ff,
+                 0 0 120px #00b3ff;
+}
+
+
+.order-search{
+    width: 500px;
+    margin: auto;
+}
+
+.order-status-block{
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    pointer-events: none;
+}
+
+.order-status-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	width: 600px;
+	margin: auto;
+    color: #fff;
+}
+
+.order-status-wrapper button{
+    display: none;
+}
+
+
+  
+
