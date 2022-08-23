@@ -15,7 +15,7 @@ body{
 
 .box{
     position: relative;
-    width: 500px;
+    width: 600px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -35,9 +35,11 @@ body{
 }
 
 
-.order-search{
-    width: 500px;
-    margin: auto;
+
+.order-search {
+	width: 600px;
+	margin: 25px auto;
+    
 }
 
 .order-status-block{
